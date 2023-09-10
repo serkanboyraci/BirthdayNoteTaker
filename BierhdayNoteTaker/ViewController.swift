@@ -29,12 +29,7 @@ class ViewController: UIViewController {
         }
         if let newBirthday = storedBirthday as? String {
             birthdayLabel.text = "Birthday: \(newBirthday)"
-        }
-        
-        
-        
-       
-        
+        }       
     }
 
     @IBAction func saveButton(_ sender: Any) {
@@ -64,21 +59,19 @@ class ViewController: UIViewController {
             UserDefaults.standard.removeObject(forKey: "name")
         }
         */
-         //aşağıda 2 farklı kullanım yaptım ikisi de aynı oluyor.
+        
+        
+        //aşağıda 2 farklı kullanım yaptım ikisi de aynı oluyor.
         if (storedName as? String) != nil {
             UserDefaults.standard.removeObject(forKey: "name")
             nameLabel.text = "Name: "
         }
         
+        //aşağıda 2 farklı kullanım yaptım ikisi de aynı oluyor.
         if storedBirthday is String {
             UserDefaults.standard.removeObject(forKey: "name")
             birthdayLabel.text = "Birthday: "
         }
-        
-        
     }
-    
-    
-    
 }
 
