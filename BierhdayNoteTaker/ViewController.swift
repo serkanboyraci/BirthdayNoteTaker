@@ -74,4 +74,6 @@ class ViewController: UIViewController {
         }
     }
 }
+// acaba kac key, value kaydedilebilir.
+
 
