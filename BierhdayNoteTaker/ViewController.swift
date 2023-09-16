@@ -75,5 +75,6 @@ class ViewController: UIViewController {
     }
 }
 // acaba kac key, value kaydedilebilir.
+// burda 1 tane denemistik.
 
 
