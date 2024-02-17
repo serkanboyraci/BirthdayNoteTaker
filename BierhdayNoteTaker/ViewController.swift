@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         UserDefaults.standard.set(nameText.text!, forKey: "name") //forkey daha sonra çağırabilmek için kullanılır.
         UserDefaults.standard.set(birthdayText.text!, forKey: "birthday")
         
-        //UserDefaults.standard.synchronize() eskiden kullanılırdı artık gerek yok başka yerlerde görenilirisin.
+        //UserDefaults.standard.synchronize() eskiden kullanılırdı artık gerek yok başka yerlerde görebilirisin.
         
         
         nameLabel.text = "Name: \(nameText.text!)"
@@ -74,7 +74,7 @@ class ViewController: UIViewController {
         }
     }
 }
-// acaba kac key, value kaydedilebilir.
+// acaba kac key, value kaydedilebilir. // sadece 1 tane kaydedilebilir.
 // burda 1 tane denemistik.
 
 
